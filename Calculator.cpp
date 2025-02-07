@@ -1,3 +1,4 @@
+//Calculator that takes input from user for numbers and the operation
 #include <iostream>
 using namespace std;
 class Calculator
