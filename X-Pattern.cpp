@@ -1,3 +1,4 @@
+//To print out * in an X formation with length and width taken as input from user
 #include<iostream>
 using namespace std;
 int main(){
