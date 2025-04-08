@@ -6,7 +6,11 @@ class TicTacToe{
     char str[10] = {' ',' ',' ',' ',' ',' ',' ',' ',' ',' '};
     int draw = 1;
     void frame(){
-        cout<<str[1]<<'|'<<str[2]<<'|'<<str[3]<<endl<<"-----"<<endl<<str[4]<<'|'<<str[5]<<'|'<<str[6]<<endl<<"-----"<<endl<<str[7]<<'|'<<str[8]<<'|'<<str[9]<<endl;
+        cout<<str[1]<<'|'<<str[2]<<'|'<<str[3]<<endl;
+        cout<<"-----"<<endl;
+        cout<<str[4]<<'|'<<str[5]<<'|'<<str[6]<<endl;
+        cout<<"-----"<<endl;
+        cout<<str[7]<<'|'<<str[8]<<'|'<<str[9]<<endl;
     }
     void end(){
         if (str[1] == 'X' && str[2] == 'X' && str[3] == 'X'){
